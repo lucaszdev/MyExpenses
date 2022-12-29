@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8538E10F295A475E00883544 /* ChangeSalary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E10E295A475E00883544 /* ChangeSalary.swift */; };
+		8538E111295A530F00883544 /* TypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E110295A530F00883544 /* TypesView.swift */; };
+		8538E113295A534700883544 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E112295A534700883544 /* ExpensesView.swift */; };
+		8538E11A295A555F00883544 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E119295A555F00883544 /* Settings.swift */; };
+		8538E11E295A79FE00883544 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E11D295A79FE00883544 /* BarChart.swift */; };
+		8538E123295B33AE00883544 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8538E125295B33AE00883544 /* Localizable.strings */; };
+		8538E12A295CF6BD00883544 /* selectCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E129295CF6BD00883544 /* selectCategoryView.swift */; };
+		8538E130295DDE0D00883544 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E12F295DDE0D00883544 /* LogsView.swift */; };
+		8538E132295E084800883544 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E131295E084800883544 /* Categories.swift */; };
+		8538E137295E45CA00883544 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E136295E45CA00883544 /* Languages.swift */; };
 		8556D8762959E47B00ACC468 /* MyExpensesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8752959E47B00ACC468 /* MyExpensesApp.swift */; };
-		8556D8782959E47B00ACC468 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8772959E47B00ACC468 /* ContentView.swift */; };
 		8556D87A2959E47C00ACC468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8556D8792959E47C00ACC468 /* Assets.xcassets */; };
 		8556D87E2959E47C00ACC468 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8556D87D2959E47C00ACC468 /* Preview Assets.xcassets */; };
 		8556D8882959E47C00ACC468 /* MyExpensesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8872959E47C00ACC468 /* MyExpensesTests.swift */; };
 		8556D8922959E47C00ACC468 /* MyExpensesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8912959E47C00ACC468 /* MyExpensesUITests.swift */; };
 		8556D8942959E47C00ACC468 /* MyExpensesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8932959E47C00ACC468 /* MyExpensesUITestsLaunchTests.swift */; };
+		8556D8A12959E4A200ACC468 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8A02959E4A200ACC468 /* AddView.swift */; };
+		8556D8A72959E4B000ACC468 /* ExpenseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8A22959E4B000ACC468 /* ExpenseSection.swift */; };
+		8556D8A82959E4B000ACC468 /* FormatStyle-LocalCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8A32959E4B000ACC468 /* FormatStyle-LocalCurrency.swift */; };
+		8556D8A92959E4B000ACC468 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8A42959E4B000ACC468 /* Expenses.swift */; };
+		8556D8AA2959E4B000ACC468 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8A52959E4B000ACC468 /* ExpenseItem.swift */; };
+		8556D8AD2959E4CE00ACC468 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8AC2959E4CE00ACC468 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8538E10E295A475E00883544 /* ChangeSalary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSalary.swift; sourceTree = "<group>"; };
+		8538E110295A530F00883544 /* TypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesView.swift; sourceTree = "<group>"; };
+		8538E112295A534700883544 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		8538E119295A555F00883544 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		8538E11D295A79FE00883544 /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		8538E126295B33BD00883544 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8538E129295CF6BD00883544 /* selectCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectCategoryView.swift; sourceTree = "<group>"; };
+		8538E12F295DDE0D00883544 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		8538E131295E084800883544 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		8538E136295E45CA00883544 /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
+		8538E138295E51F000883544 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8538E139295E51F200883544 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8556D8722959E47B00ACC468 /* MyExpenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyExpenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8556D8752959E47B00ACC468 /* MyExpensesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExpensesApp.swift; sourceTree = "<group>"; };
-		8556D8772959E47B00ACC468 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8556D8792959E47C00ACC468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8556D87B2959E47C00ACC468 /* MyExpenses.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyExpenses.entitlements; sourceTree = "<group>"; };
 		8556D87D2959E47C00ACC468 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +71,12 @@
 		8556D88D2959E47C00ACC468 /* MyExpensesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyExpensesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8556D8912959E47C00ACC468 /* MyExpensesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExpensesUITests.swift; sourceTree = "<group>"; };
 		8556D8932959E47C00ACC468 /* MyExpensesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExpensesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8556D8A02959E4A200ACC468 /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		8556D8A22959E4B000ACC468 /* ExpenseSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseSection.swift; sourceTree = "<group>"; };
+		8556D8A32959E4B000ACC468 /* FormatStyle-LocalCurrency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FormatStyle-LocalCurrency.swift"; sourceTree = "<group>"; };
+		8556D8A42959E4B000ACC468 /* Expenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		8556D8A52959E4B000ACC468 /* ExpenseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		8556D8AC2959E4CE00ACC468 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +104,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8538E114295A543600883544 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				8538E118295A552600883544 /* navigation */,
+				8538E115295A548000883544 /* screens */,
+				8556D8A02959E4A200ACC468 /* AddView.swift */,
+				8538E129295CF6BD00883544 /* selectCategoryView.swift */,
+				8538E11D295A79FE00883544 /* BarChart.swift */,
+				8538E10E295A475E00883544 /* ChangeSalary.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		8538E115295A548000883544 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				8538E112295A534700883544 /* ExpensesView.swift */,
+				8556D8A22959E4B000ACC468 /* ExpenseSection.swift */,
+				8538E12F295DDE0D00883544 /* LogsView.swift */,
+				8538E110295A530F00883544 /* TypesView.swift */,
+				8538E119295A555F00883544 /* Settings.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		8538E116295A549700883544 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				8556D8A32959E4B000ACC468 /* FormatStyle-LocalCurrency.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		8538E117295A54CF00883544 /* stores */ = {
+			isa = PBXGroup;
+			children = (
+				8556D8A42959E4B000ACC468 /* Expenses.swift */,
+				8556D8A52959E4B000ACC468 /* ExpenseItem.swift */,
+				8538E131295E084800883544 /* Categories.swift */,
+				8538E136295E45CA00883544 /* Languages.swift */,
+			);
+			path = stores;
+			sourceTree = "<group>";
+		};
+		8538E118295A552600883544 /* navigation */ = {
+			isa = PBXGroup;
+			children = (
+				8556D8AC2959E4CE00ACC468 /* MainView.swift */,
+			);
+			path = navigation;
+			sourceTree = "<group>";
+		};
 		8556D8692959E47B00ACC468 = {
 			isa = PBXGroup;
 			children = (
@@ -95,10 +179,13 @@
 		8556D8742959E47B00ACC468 /* MyExpenses */ = {
 			isa = PBXGroup;
 			children = (
+				8538E114295A543600883544 /* views */,
+				8538E117295A54CF00883544 /* stores */,
+				8538E116295A549700883544 /* utils */,
 				8556D8752959E47B00ACC468 /* MyExpensesApp.swift */,
-				8556D8772959E47B00ACC468 /* ContentView.swift */,
 				8556D8792959E47C00ACC468 /* Assets.xcassets */,
 				8556D87B2959E47C00ACC468 /* MyExpenses.entitlements */,
+				8538E125295B33AE00883544 /* Localizable.strings */,
 				8556D87C2959E47C00ACC468 /* Preview Content */,
 			);
 			path = MyExpenses;
@@ -215,6 +302,9 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
+				ja,
+				ru,
 			);
 			mainGroup = 8556D8692959E47B00ACC468;
 			productRefGroup = 8556D8732959E47B00ACC468 /* Products */;
@@ -234,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8556D87E2959E47C00ACC468 /* Preview Assets.xcassets in Resources */,
+				8538E123295B33AE00883544 /* Localizable.strings in Resources */,
 				8556D87A2959E47C00ACC468 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +350,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8556D8782959E47B00ACC468 /* ContentView.swift in Sources */,
+				8556D8AA2959E4B000ACC468 /* ExpenseItem.swift in Sources */,
+				8556D8A92959E4B000ACC468 /* Expenses.swift in Sources */,
+				8538E137295E45CA00883544 /* Languages.swift in Sources */,
+				8538E132295E084800883544 /* Categories.swift in Sources */,
+				8556D8AD2959E4CE00ACC468 /* MainView.swift in Sources */,
+				8538E130295DDE0D00883544 /* LogsView.swift in Sources */,
+				8538E113295A534700883544 /* ExpensesView.swift in Sources */,
+				8538E12A295CF6BD00883544 /* selectCategoryView.swift in Sources */,
+				8556D8A72959E4B000ACC468 /* ExpenseSection.swift in Sources */,
+				8556D8A82959E4B000ACC468 /* FormatStyle-LocalCurrency.swift in Sources */,
+				8538E11E295A79FE00883544 /* BarChart.swift in Sources */,
+				8538E111295A530F00883544 /* TypesView.swift in Sources */,
 				8556D8762959E47B00ACC468 /* MyExpensesApp.swift in Sources */,
+				8556D8A12959E4A200ACC468 /* AddView.swift in Sources */,
+				8538E11A295A555F00883544 /* Settings.swift in Sources */,
+				8538E10F295A475E00883544 /* ChangeSalary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +400,19 @@
 			targetProxy = 8556D88E2959E47C00ACC468 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8538E125295B33AE00883544 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8538E126295B33BD00883544 /* pt-BR */,
+				8538E138295E51F000883544 /* ja */,
+				8538E139295E51F200883544 /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8556D8952959E47C00ACC468 /* Debug */ = {
@@ -411,14 +529,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = MyExpenses/MyExpenses.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyExpenses/Preview Content\"";
-				DEVELOPMENT_TEAM = LV26W5MNWH;
+				DEVELOPMENT_TEAM = Y5MA4DK8AV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Expenses";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -429,15 +550,18 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.lucas.lima.MyExpenses;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = me.lima.lucas.MyExpenses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,14 +573,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = MyExpenses/MyExpenses.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyExpenses/Preview Content\"";
-				DEVELOPMENT_TEAM = LV26W5MNWH;
+				DEVELOPMENT_TEAM = Y5MA4DK8AV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Expenses";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -467,15 +594,18 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = me.lucas.lima.MyExpenses;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = me.lima.lucas.MyExpenses;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

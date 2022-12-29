@@ -1,0 +1,45 @@
+/* 
+  Localizable.strings
+  MyExpenses
+
+  Created by Lucas Lima on 27/12/22.
+  
+*/
+
+// Expenses
+
+"Expenses" = "Despesas";
+"Your salary" = "Seu salário";
+"Change" = "Mudar";
+"My expenses" = "minhas despesas";
+"Remaining balance" = "Saldo remanescente";
+"Transactions" = "Transações";
+"No Transactions" = "Nenhuma transação";
+"Expense name" = "Nome da despesa";
+"Change salary" = "Alterar salário";
+"Done" = "Feito";
+"Type" = "Tipo";
+"Selected category" = "Categoria selecionada";
+"Amount" = "Quantidade";
+"Add new expense" = "Adicionar nova despesa";
+"Save" = "Salvar";
+"Error" = "Erro";
+"Expense name can't be empty" = "O nome da despesa não pode estar vazio.";
+"Amount can't be" = "O valor não pode ser";
+"Ok" = "OK";
+"Select category" = "Selecione a categoria";
+"Spending" = "Gastos";
+"Fixed" = "Fixo";
+"Variable" = "Variável";
+"Language" = "Idioma";
+"Settings" = "Ajustes";
+"No fixed items" = "Nenhum item fixo";
+"No variable items" = "Nenhum item variável";
+"Types" = "Tipos";
+"Sort by" = "Ordenar por";
+"Sort by category" = "Ordenar por categoria";
+"Disable sort by category" = "Desabilitar a classificação por categoria";
+"No transactions with the category" = "Nenhuma transação com a categoria";
+"Expenses logs" = "Registros de despesas";
+"Logs" = "Registros";
+"Dark Mode" = "Modo Escuro";

@@ -2,7 +2,7 @@
 //  MyExpensesTests.swift
 //  MyExpensesTests
 //
-//  Created by Premiersoft on 26/12/22.
+//  Created by Lucas Lima on 26/12/22.
 //
 
 import XCTest

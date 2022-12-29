@@ -2,7 +2,7 @@
 //  MyExpensesApp.swift
 //  MyExpenses
 //
-//  Created by Premiersoft on 26/12/22.
+//  Created by Lucas Lima on 26/12/22.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct MyExpensesApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  MyExpenses
+
+  Created by Lucas Lima on 27/12/22.
+  
+*/
+
+"Expenses" = "デスペサス";
+"Your salary" = "あなたの給料";
+"Change" = "変化する";
+"My expenses" = "私の費用";
+"Remaining balance" = "保たれているバランス";
+"Transactions" = "取引";
+"No Transactions" = "取引なし";
+"Expense name" = "経費名";
+"Change salary" = "給与の変更";
+"Done" = "終わり";
+"Type" = "タイプ";
+"Selected category" = "選択したカテゴリ";
+"Amount" = "額";
+"Add new expense" = "新しい経費を追加";
+"Save" = "セーブ";
+"Error" = "エラー";
+"Expense name can't be empty" = "経費名を空にすることはできません";
+"Amount can't be" = "金額はできません";
+"Ok" = "オッケー";
+"Select category" = "カテゴリを選んでください";
+"Spending" = "支出";
+"Fixed" = "修理済み";
+"Variable" = "変数";
+"Language" = "言語";
+"Settings" = "設定";
+"No fixed items" = "固定項目なし";
+"No variable items" = "可変項目なし";
+"Types" = "タイプ";
+"Sort by" = "並び替え";
+"Sort by category" = "カテゴリ別に並べ替え";
+"Disable sort by category" = "カテゴリによる並べ替えを無効にする";
+"No transactions with the category" = "カテゴリーとの取引はありません";
+"Expenses logs" = "経費ログ";
+"Logs" = "ログ";
+"Dark Mode" = "ダークモード";
