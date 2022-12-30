@@ -45,7 +45,9 @@ struct TypesView: View {
     var body: some View {
         NavigationStack {
             List {
-                BarChart(expenses: expenses)
+                if !expenses.items.isEmpty {
+                    BarChart(expenses: expenses)
+                }
                 
                 if expenses.fixedItems.isEmpty {
                     Section("Fixed") {
@@ -69,7 +71,7 @@ struct TypesView: View {
     }
 }
 
-struct Categories_Previews: PreviewProvider {
+struct Types_Previews: PreviewProvider {
     static var previews: some View {
         TypesView(expenses: Expenses())
     }

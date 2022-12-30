@@ -90,7 +90,10 @@ struct LogsView: View {
                 }
                 
                 Section("Transactions") {
-                    if searchResults.isEmpty {
+                    if expenses.items.isEmpty {
+                        Text("No Transactions")
+                    }
+                    else if searchResults.isEmpty {
                         HStack {
                             Text("No transactions with the category:")
                             Image(systemName: categorySelected)
