@@ -41,21 +41,6 @@ struct LogsView: View {
         }
     }
     
-    func formatDate(date: Date) -> String {
-        let formatter1 = DateFormatter()
-
-        formatter1.dateStyle = .medium
-        formatter1.timeStyle = .none
-
-        return formatter1.string(from: date)
-    }
-    
-    func handleDoneItem(itemId: UUID) {
-        if let row = expenses.items.firstIndex(where: {$0.id == itemId}) {
-            expenses.items[row].isDone = !expenses.items[row].isDone
-        }
-    }
-    
     var body: some View {
         NavigationStack {
             List {
@@ -108,7 +93,7 @@ struct LogsView: View {
                                     Text(item.name)
                                         .font(.headline)
                                     
-                                    Text(formatDate(date: item.data))
+                                    Text(FormatData().formatDate(date: item.data))
                                         .font(.subheadline)
                                 }
                                 
@@ -122,7 +107,7 @@ struct LogsView: View {
                             .opacity(item.isDone ? 0.2 : 1)
                             .swipeActions(edge: .leading) {
                                 Button {
-                                    handleDoneItem(itemId: item.id)
+                                    FuncHelper(expenses: expenses).handleDoneItem(itemId: item.id)
                                 } label: {
                                     Label("Check", systemImage: "checkmark")
                                 }
