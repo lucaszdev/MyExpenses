@@ -8,6 +8,6 @@
 import Foundation
 
 class Languages {
-    var avaiablesLanguages: [String] = ["en", "pt-br", "ja", "ru"]
+    var avaiablesLanguages: [String] = ["en", "pt", "ja", "ru"]
     var avaiablesLanguagesDescription: [String] = ["English", "Português", "Japanese", "Russian"]
 }

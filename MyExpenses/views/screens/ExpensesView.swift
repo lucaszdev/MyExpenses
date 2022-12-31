@@ -16,34 +16,6 @@ struct ExpensesView: View {
     @AppStorage("Salary") var salary: Double = 5000.0
     @AppStorage("ThemeDarkMode") var theme = false
 
-    func handleDoneItem(itemId: UUID) {
-        if let row = expenses.items.firstIndex(where: {$0.id == itemId}) {
-            expenses.items[row].isDone = !expenses.items[row].isDone
-        }
-    }
-    
-    func moveItems(from source: IndexSet, to destination: Int) {
-        expenses.items.move(fromOffsets: source, toOffset: destination)
-    }
-    
-    func removeItems(at offsets: IndexSet, in inputArray: [ExpenseItem]) {
-        var objectsToDelete = IndexSet()
-        
-        for offset in offsets {
-            let item = inputArray[offset]
-            
-            if let index = expenses.items.firstIndex(of: item) {
-                objectsToDelete.insert(index)
-            }
-        }
-        
-        expenses.items.remove(atOffsets: objectsToDelete)
-    }
-    
-    func removeFromExpenses(at offsets: IndexSet) {
-        removeItems(at: offsets, in: expenses.items)
-    }
-
     var body: some View {
         NavigationStack {
             List {
@@ -80,8 +52,13 @@ struct ExpensesView: View {
                         Text("No Transactions")
                     }
                 } else {
-                    ExpenseSection(title: "Transactions", expenses: expenses.items, deleteItems: removeFromExpenses, moveItems: moveItems,
-                                   handleDoneItem: handleDoneItem, moveItemsDisable: false, deleteItemsDisable: false)
+                    ExpenseSection(
+                        title: "Transactions",
+                        expenses: expenses.items,
+                        deleteItems: FuncHelper(expenses: expenses).removeFromExpenses, moveItems: FuncHelper(expenses: expenses).moveItems,
+                                   handleDoneItem: FuncHelper(expenses: expenses).handleDoneItem,
+                        moveItemsDisable: false,
+                        deleteItemsDisable: false)
                 }
             }
             .navigationTitle("Expenses")

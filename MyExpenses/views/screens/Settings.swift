@@ -9,9 +9,11 @@ import SwiftUI
 
 struct Settings: View {
     @AppStorage("ThemeDarkMode") var theme = false
-    @AppStorage("Language") var identifier = "en"
     @State private var languages = Languages()
+    let locale = String(Locale.current.identifier).prefix(2)
     
+    @State private var showingChangeLanguage = false
+
     private func changeAppIcon(to iconName: String) {
         UIApplication.shared.setAlternateIconName(iconName) { error in
             if let error = error {
@@ -26,14 +28,35 @@ struct Settings: View {
             Form {
                 Toggle("Dark Mode", isOn: $theme)
                 
-                Picker("Language", selection: $identifier) {
-                    ForEach(Array(languages.avaiablesLanguages.enumerated()), id: \.element) { index, lang in
-                        Text(languages.avaiablesLanguagesDescription[index])
+                
+                HStack {
+                    Button {
+                        showingChangeLanguage = true
+                    } label: {
+                        Text("Language")
+                            .foregroundColor(.primary)
                     }
+                    
+                    Spacer()
+                    
+                    Text(languages.avaiablesLanguagesDescription[languages.avaiablesLanguages.firstIndex(of: String(locale)) ?? 0])
+                        .foregroundColor(.gray)
+                    Image(systemName: "chevron.forward")
+                        .foregroundColor(.gray)
                 }
-                .pickerStyle(.navigationLink)
             }
             .navigationTitle("Settings")
+            .alert("How to set your My Expenses app language", isPresented: $showingChangeLanguage) {
+                Button("Continue") {
+                    UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)
+                }
+                
+                Button("Cancel", role: .cancel) {}
+                
+            } message: {
+                Text("Due to updates to your phone, there are diffrent steps to change your My Expenses language.\n\n 1. Continue to the next screen.\n2. Tap language to select the language you want.\n\n If no language setting is avaiable, go to your general iPhone language settings to first set a preferred language.")
+            }
+            .preferredColorScheme(theme ? .dark : .light)
         }
     }
 }

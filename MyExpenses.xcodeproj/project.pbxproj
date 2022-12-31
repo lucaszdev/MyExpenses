@@ -17,6 +17,8 @@
 		8538E130295DDE0D00883544 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E12F295DDE0D00883544 /* LogsView.swift */; };
 		8538E132295E084800883544 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E131295E084800883544 /* Categories.swift */; };
 		8538E137295E45CA00883544 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E136295E45CA00883544 /* Languages.swift */; };
+		8538E13D295F91B800883544 /* FuncHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E13C295F91B800883544 /* FuncHelper.swift */; };
+		8538E13F29605F9E00883544 /* FormatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E13E29605F9E00883544 /* FormatData.swift */; };
 		8556D8762959E47B00ACC468 /* MyExpensesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8752959E47B00ACC468 /* MyExpensesApp.swift */; };
 		8556D87A2959E47C00ACC468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8556D8792959E47C00ACC468 /* Assets.xcassets */; };
 		8556D87E2959E47C00ACC468 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8556D87D2959E47C00ACC468 /* Preview Assets.xcassets */; };
@@ -61,6 +63,8 @@
 		8538E136295E45CA00883544 /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
 		8538E138295E51F000883544 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8538E139295E51F200883544 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8538E13C295F91B800883544 /* FuncHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncHelper.swift; sourceTree = "<group>"; };
+		8538E13E29605F9E00883544 /* FormatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatData.swift; sourceTree = "<group>"; };
 		8556D8722959E47B00ACC468 /* MyExpenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyExpenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8556D8752959E47B00ACC468 /* MyExpensesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyExpensesApp.swift; sourceTree = "<group>"; };
 		8556D8792959E47C00ACC468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				8556D8A32959E4B000ACC468 /* FormatStyle-LocalCurrency.swift */,
+				8538E13C295F91B800883544 /* FuncHelper.swift */,
+				8538E13E29605F9E00883544 /* FormatData.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -365,6 +371,8 @@
 				8556D8762959E47B00ACC468 /* MyExpensesApp.swift in Sources */,
 				8556D8A12959E4A200ACC468 /* AddView.swift in Sources */,
 				8538E11A295A555F00883544 /* Settings.swift in Sources */,
+				8538E13D295F91B800883544 /* FuncHelper.swift in Sources */,
+				8538E13F29605F9E00883544 /* FormatData.swift in Sources */,
 				8538E10F295A475E00883544 /* ChangeSalary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

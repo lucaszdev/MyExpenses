@@ -10,7 +10,6 @@ import SwiftUI
 struct MainView: View {
     @StateObject var expenses = Expenses()
     @AppStorage("ThemeDarkMode") var theme = false
-    @AppStorage("Language") var identifier = "en"
     
     var body: some View {
         TabView {
@@ -35,7 +34,6 @@ struct MainView: View {
                 }
         }
         .environment(\.colorScheme, theme ? .dark : .light)
-        .environment(\.locale, .init(identifier: identifier))
     }
 }
 
