@@ -8,20 +8,14 @@
 import SwiftUI
 
 struct ExpensesView: View {
-    @Environment(\.editMode) var editMode
     @ObservedObject var expenses: Expenses
     
-    @State private var showingAddExpense = false
-    @State private var showingChangeSalary = false
-    @AppStorage("Salary") var salary: Double = 5000.0
-    @AppStorage("ThemeDarkMode") var theme = false
-
     var body: some View {
         NavigationStack {
             List {
                 Section("Your salary") {
                     HStack {
-                        Text(salary, format: .localCurrency)
+                        Text(expenses.salary, format: .localCurrency)
                             .font(.largeTitle.bold())
                             .foregroundColor(.green)
                         
@@ -30,7 +24,7 @@ struct ExpensesView: View {
                         Text("Change")
                             .foregroundColor(Color.accentColor)
                             .onTapGesture {
-                                showingChangeSalary = true
+                                expenses.showingChangeSalary = true
                             }
                     }
                 }
@@ -42,7 +36,7 @@ struct ExpensesView: View {
                 }
                 
                 Section("Remaining balance") {
-                    Text(salary - expenses.totalAmount, format: .localCurrency)
+                    Text(expenses.salary - expenses.totalAmount, format: .localCurrency)
                         .font(.largeTitle.bold())
                         .foregroundColor(.green)
                 }
@@ -70,19 +64,17 @@ struct ExpensesView: View {
                 }
                 ToolbarItem(placement: .navigationBarTrailing) {
                     Button {
-                        showingAddExpense = true
+                        expenses.showingAddExpense = true
                     } label: {
                         Image(systemName: "plus")
                     }
                 }
             }
-            .sheet(isPresented: $showingAddExpense) {
+            .sheet(isPresented: $expenses.showingAddExpense) {
                 AddView(expenses: expenses)
-                    .preferredColorScheme(theme ? .dark : .light)
             }
-            .sheet(isPresented: $showingChangeSalary) {
-                ChangeSalary(salary: $salary)
-                    .preferredColorScheme(theme ? .dark : .light)
+            .sheet(isPresented: $expenses.showingChangeSalary) {
+                ChangeSalary(salary: $expenses.salary)
             }
         }
     }

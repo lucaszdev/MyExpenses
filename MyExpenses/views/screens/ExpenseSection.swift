@@ -65,3 +65,9 @@ struct ExpenseSection: View {
         }
     }
 }
+
+//struct ExpenseSection_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ExpenseSection(title: <#String#>, expenses: <#[ExpenseItem]#>, deleteItems: <#(IndexSet) -> Void#>, moveItems: <#(IndexSet, Int) -> Void#>, handleDoneItem: <#(UUID) -> Void#>, moveItemsDisable: <#Bool#>, deleteItemsDisable: <#Bool#>)
+//    }
+//}

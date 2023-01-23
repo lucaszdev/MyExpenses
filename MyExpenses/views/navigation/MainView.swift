@@ -9,7 +9,6 @@ import SwiftUI
 
 struct MainView: View {
     @StateObject var expenses = Expenses()
-    @AppStorage("ThemeDarkMode") var theme = false
     
     var body: some View {
         TabView {
@@ -27,13 +26,7 @@ struct MainView: View {
                 .tabItem {
                     Label("Types", systemImage: "list.bullet.indent")
                 }
-
-            Settings()
-                .tabItem {
-                    Label("Settings", systemImage: "gear")
-                }
         }
-        .environment(\.colorScheme, theme ? .dark : .light)
     }
 }
 

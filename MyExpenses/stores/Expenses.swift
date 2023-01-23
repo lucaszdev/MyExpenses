@@ -18,6 +18,19 @@ class Expenses: ObservableObject {
         }
     }
     
+    @Published var salary = 1200.0 {
+        didSet {
+            let encoder = JSONEncoder()
+            
+            if let encoded = try? encoder.encode(salary) {
+                UserDefaults.standard.set(encoded, forKey: "Salary")
+            }
+        }
+    }
+    
+    @Published var showingAddExpense = false
+    @Published var showingChangeSalary = false
+    
     var fixedItems: [ExpenseItem] {
         items.filter { $0.type == "Fixed" }
     }
@@ -60,10 +73,17 @@ class Expenses: ObservableObject {
         if let savedItems = UserDefaults.standard.data(forKey: "Items") {
             if let decodedItems = try? JSONDecoder().decode([ExpenseItem].self, from: savedItems) {
                 items = decodedItems
-                return
             }
+        } else {
+            items = []
         }
         
-        items = []
+        if let salaryValue = UserDefaults.standard.data(forKey: "Salary") {
+            if let decodedSalary = try? JSONDecoder().decode(Double.self, from: salaryValue) {
+                salary = decodedSalary
+            }
+        } else {
+            salary = 1200.0
+        }
     }
 }

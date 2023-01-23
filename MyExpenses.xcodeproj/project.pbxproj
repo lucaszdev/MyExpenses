@@ -10,13 +10,10 @@
 		8538E10F295A475E00883544 /* ChangeSalary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E10E295A475E00883544 /* ChangeSalary.swift */; };
 		8538E111295A530F00883544 /* TypesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E110295A530F00883544 /* TypesView.swift */; };
 		8538E113295A534700883544 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E112295A534700883544 /* ExpensesView.swift */; };
-		8538E11A295A555F00883544 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E119295A555F00883544 /* Settings.swift */; };
 		8538E11E295A79FE00883544 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E11D295A79FE00883544 /* BarChart.swift */; };
-		8538E123295B33AE00883544 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8538E125295B33AE00883544 /* Localizable.strings */; };
 		8538E12A295CF6BD00883544 /* selectCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E129295CF6BD00883544 /* selectCategoryView.swift */; };
 		8538E130295DDE0D00883544 /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E12F295DDE0D00883544 /* LogsView.swift */; };
 		8538E132295E084800883544 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E131295E084800883544 /* Categories.swift */; };
-		8538E137295E45CA00883544 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E136295E45CA00883544 /* Languages.swift */; };
 		8538E13D295F91B800883544 /* FuncHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E13C295F91B800883544 /* FuncHelper.swift */; };
 		8538E13F29605F9E00883544 /* FormatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8538E13E29605F9E00883544 /* FormatData.swift */; };
 		8556D8762959E47B00ACC468 /* MyExpensesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8556D8752959E47B00ACC468 /* MyExpensesApp.swift */; };
@@ -54,15 +51,10 @@
 		8538E10E295A475E00883544 /* ChangeSalary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeSalary.swift; sourceTree = "<group>"; };
 		8538E110295A530F00883544 /* TypesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesView.swift; sourceTree = "<group>"; };
 		8538E112295A534700883544 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
-		8538E119295A555F00883544 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		8538E11D295A79FE00883544 /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
-		8538E126295B33BD00883544 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		8538E129295CF6BD00883544 /* selectCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectCategoryView.swift; sourceTree = "<group>"; };
 		8538E12F295DDE0D00883544 /* LogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
 		8538E131295E084800883544 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
-		8538E136295E45CA00883544 /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
-		8538E138295E51F000883544 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
-		8538E139295E51F200883544 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8538E13C295F91B800883544 /* FuncHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncHelper.swift; sourceTree = "<group>"; };
 		8538E13E29605F9E00883544 /* FormatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatData.swift; sourceTree = "<group>"; };
 		8556D8722959E47B00ACC468 /* MyExpenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyExpenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +73,7 @@
 		8556D8A42959E4B000ACC468 /* Expenses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		8556D8A52959E4B000ACC468 /* ExpenseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		8556D8AC2959E4CE00ACC468 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		858B146A297E101400AD70F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +121,6 @@
 				8556D8A22959E4B000ACC468 /* ExpenseSection.swift */,
 				8538E12F295DDE0D00883544 /* LogsView.swift */,
 				8538E110295A530F00883544 /* TypesView.swift */,
-				8538E119295A555F00883544 /* Settings.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -149,7 +141,6 @@
 				8556D8A42959E4B000ACC468 /* Expenses.swift */,
 				8556D8A52959E4B000ACC468 /* ExpenseItem.swift */,
 				8538E131295E084800883544 /* Categories.swift */,
-				8538E136295E45CA00883544 /* Languages.swift */,
 			);
 			path = stores;
 			sourceTree = "<group>";
@@ -191,7 +182,7 @@
 				8556D8752959E47B00ACC468 /* MyExpensesApp.swift */,
 				8556D8792959E47C00ACC468 /* Assets.xcassets */,
 				8556D87B2959E47C00ACC468 /* MyExpenses.entitlements */,
-				8538E125295B33AE00883544 /* Localizable.strings */,
+				858B146A297E101400AD70F3 /* Info.plist */,
 				8556D87C2959E47C00ACC468 /* Preview Content */,
 			);
 			path = MyExpenses;
@@ -330,7 +321,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8556D87E2959E47C00ACC468 /* Preview Assets.xcassets in Resources */,
-				8538E123295B33AE00883544 /* Localizable.strings in Resources */,
 				8556D87A2959E47C00ACC468 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,7 +348,6 @@
 			files = (
 				8556D8AA2959E4B000ACC468 /* ExpenseItem.swift in Sources */,
 				8556D8A92959E4B000ACC468 /* Expenses.swift in Sources */,
-				8538E137295E45CA00883544 /* Languages.swift in Sources */,
 				8538E132295E084800883544 /* Categories.swift in Sources */,
 				8556D8AD2959E4CE00ACC468 /* MainView.swift in Sources */,
 				8538E130295DDE0D00883544 /* LogsView.swift in Sources */,
@@ -370,7 +359,6 @@
 				8538E111295A530F00883544 /* TypesView.swift in Sources */,
 				8556D8762959E47B00ACC468 /* MyExpensesApp.swift in Sources */,
 				8556D8A12959E4A200ACC468 /* AddView.swift in Sources */,
-				8538E11A295A555F00883544 /* Settings.swift in Sources */,
 				8538E13D295F91B800883544 /* FuncHelper.swift in Sources */,
 				8538E13F29605F9E00883544 /* FormatData.swift in Sources */,
 				8538E10F295A475E00883544 /* ChangeSalary.swift in Sources */,
@@ -408,19 +396,6 @@
 			targetProxy = 8556D88E2959E47C00ACC468 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8538E125295B33AE00883544 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8538E126295B33BD00883544 /* pt-BR */,
-				8538E138295E51F000883544 /* ja */,
-				8538E139295E51F200883544 /* ru */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8556D8952959E47C00ACC468 /* Debug */ = {
@@ -546,6 +521,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyExpenses/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "My Expenses";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -590,6 +566,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyExpenses/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "My Expenses";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
